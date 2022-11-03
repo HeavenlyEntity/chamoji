@@ -6,6 +6,20 @@ const App = importJsx('./components/ui');
 const CommitList = importJsx('./components/CommitList');
 
 function Main(props) {
+
+	let flagOptions = {
+		'name': 'n',
+		'interactive': 'i',
+		'login': '',
+		'logout': '',
+		'list': 'l',
+		'version': 'v',
+		'config': '',
+	}
+
+	// TODO: Map version, date to markdown file.
+	// TODO: Map views and logic to command flags
+
 	return (
 		<Box>
 			<App/>
