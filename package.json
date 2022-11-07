@@ -19,6 +19,7 @@
 		"import-jsx": "^4.0.1",
 		"ink": "^3.2.0",
 		"ink-ascii": "^0.0.4",
+		"ink-big-text": "^1.2.0",
 		"ink-confirm-input": "^2.0.0",
 		"ink-divider": "^3.0.0",
 		"ink-form": "^1.0.2",
