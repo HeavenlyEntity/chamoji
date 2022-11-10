@@ -1,0 +1,12 @@
+{
+  "default-gather" : "none",
+  "repo" : {
+	"url" : "",
+	"name" : "",
+	"version" : "",
+	"linked": false
+  },
+  "groups-header-type": "h3",
+  "commit-list-type": "unordered",
+  "date-tag-position": "above"
+}

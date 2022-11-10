@@ -1,12 +1,14 @@
 const React = require('react');
 const PropTypes = require('prop-types');
 const importJsx = require('import-jsx');
-const {render, measureElement, Box, Text, Newline} = require('ink');
+const {render, measureElement, Box, Text, Newline, Spacer} = require('ink');
 const { useEffect, useState } = require('react');
 const { useCurrentDirectoryBase, useDirectoryExists } = require('./hooks/useFileExplorer');
 const App = importJsx('./components/ui');
+const GitSetUp = importJsx('./components/GitSetUp');
 const BigText = require('ink-big-text');
 const Gradient = require('ink-gradient');
+const SelectInput = require('ink-select-input')
 
 function Main(props) {
 	// Let each option depict view and other options needed to complete user interaction.
@@ -27,6 +29,8 @@ function Main(props) {
 		'create': Boolean,
 		'c': 'create',
 	}
+
+
 	const [gitDirectoryExists, setGitDirectoryExists] = useState(false)
 
 
@@ -47,31 +51,13 @@ function Main(props) {
 	// TODO: Map version, date to markdown file.
 	// TODO: Map views and logic to command flags
 
-	function renderGitOptions() {
-		if (gitDirectoryExists) {
-			// Render inquirer
-			return (
-				<Box borderColor="green" borderStyle="round" paddingX={2}>
-					<Text>Git repo <Text color='green'>exists</Text>! ✔ </Text>
-				</Box>
-			)
-		}
-
-		return (
-			<Box alignItems="flex-start">
-				<App/>
-			</Box>
-		)
-	}
 
 	return (
 		<>
-			<Box>
-				<Gradient name='atlas'>
-					<BigText font='tiny' text="Chamoji"/>
-				</Gradient>
-			</Box>
-			{renderGitOptions()}
+			<Gradient name='retro'>
+				<BigText font='tiny' text="Chamoji" align='center' backgroundColor='cyan' letterSpacing={5}/>
+			</Gradient>
+			<GitSetUp currentDirectory={gitDirectoryExists}/>
 		</>
 	);
 }
