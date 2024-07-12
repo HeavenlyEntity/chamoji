@@ -101,6 +101,6 @@ npm run test:coverage
 
 ## Thank You!
 
-Thank you for taking the time to contribute to Gitmoji-Changelog clone! Your contributions are what make this project successful and impactful. If you have any questions, feel free to open an issue or reach out to the maintainers.
+Thank you for taking the time to contribute to Chamoji! Your contributions are what make this project successful and impactful. If you have any questions, feel free to open an issue or reach out to the maintainers.
 
 Happy coding!
