@@ -83,9 +83,9 @@ npm test
 ## Style Guide
 We follow the following coding conventions:
 
-Use Prettier for code formatting. Run npx prettier --write . before committing.
-Follow Airbnb's JavaScript style guide. Lint your code with npx eslint ..
-Use meaningful commit messages. Follow the conventional commits specification.
+Use **Prettier** for code formatting. Run `npx prettier --write`. before committing.
+Follow **Airbnb's JavaScript style guide**. Lint your code with `npx eslint .`.
+Use **meaningful commit messages**. Follow the conventional commits specification.
 Testing
 We use Jest for testing. Ensure that all existing tests pass and add new tests for any new functionality. To run the tests:
 
