@@ -1,6 +1,6 @@
 Please refer to the design document first: https://chatgpt.com/share/7415c4a5-d8bc-4227-9100-b9504b5cf7e6
 
-# Contributing to Gitmoji-Changelog Clone
+# Contributing to Chamoji
 
 Thank you for considering contributing to the Gitmoji-Changelog clone project! We welcome all types of contributions, including bug reports, feature requests, and pull requests.
 
@@ -23,7 +23,7 @@ By participating in this project, you agree to abide by our [Code of Conduct](CO
 
 ### Reporting Bugs
 
-If you find a bug, please report it by [opening an issue](https://github.com/your-username/gitmoji-changelog-clone/issues). Include as much detail as possible to help us understand and reproduce the issue. Some things you might include are:
+If you find a bug, please report it by [opening an issue](https://github.com/HeavenlyEntity/chamoji/issues). Include as much detail as possible to help us understand and reproduce the issue. Some things you might include are:
 - Steps to reproduce the issue
 - Expected behavior
 - Actual behavior
@@ -31,7 +31,7 @@ If you find a bug, please report it by [opening an issue](https://github.com/you
 
 ### Suggesting Features
 
-If you have an idea for a new feature or an improvement to an existing feature, please [open an issue](https://github.com/your-username/gitmoji-changelog-clone/issues) and describe your suggestion. Please include:
+If you have an idea for a new feature or an improvement to an existing feature, please [open an issue](https://github.com/HeavenlyEntity/chamoji/issues) and describe your suggestion. Please include:
 - A clear description of the feature or improvement
 - The problem it solves or the use case it addresses
 - Any relevant examples or mockups
@@ -45,7 +45,7 @@ We welcome pull requests for bug fixes, new features, and documentation improvem
 4. Write or update tests as needed.
 5. Commit your changes (`git commit -m "Description of your changes"`).
 6. Push to your fork (`git push origin feature/my-feature`).
-7. [Open a pull request](https://github.com/your-username/gitmoji-changelog-clone/pulls) against the `main` branch of this repository.
+7. [Open a pull request](https://github.com/HeavenlyEntity/chamoji/pulls) against the `main` branch of this repository.
 
 Please ensure your pull request follows these guidelines:
 - Include a clear description of the changes and why they are needed.
