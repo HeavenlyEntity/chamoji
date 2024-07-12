@@ -57,9 +57,10 @@ Please ensure your pull request follows these guidelines:
 To set up the development environment:
 
 1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/your-username/gitmoji-changelog-clone.git
-   cd gitmoji-changelog-clone```
+```sh
+git clone https://github.com/your-username/gitmoji-changelog-clone.git
+cd gitmoji-changelog-clone
+```
    
 2. Install dependencies:
 
