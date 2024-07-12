@@ -2,7 +2,7 @@ Please refer to the design document first: https://chatgpt.com/share/7415c4a5-d8
 
 # Contributing to Chamoji
 
-Thank you for considering contributing to the Gitmoji-Changelog clone project! We welcome all types of contributions, including bug reports, feature requests, and pull requests.
+Thank you for considering contributing to the **Chamoji** clone project! We welcome all types of contributions, including bug reports, feature requests, and pull requests.
 
 ## Table of Contents
 
@@ -58,8 +58,8 @@ To set up the development environment:
 
 1. **Clone the repository:**
 ```sh
-git clone https://github.com/your-username/gitmoji-changelog-clone.git
-cd gitmoji-changelog-clone
+git clone https://github.com/your-username/chamoji.git
+cd chamoji
 ```
    
 2. Install dependencies:
